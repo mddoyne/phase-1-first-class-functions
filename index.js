@@ -11,10 +11,10 @@ function receivesAFunction(callback)
 
 function returnsANamedFunction()
 {
-    
+    return returnsANamedFunction;
 }
 
 function returnsAnAnonymousFunction()
 {
-    return returnsAnAnonymousFunction(returnsANamedFunction());
+    return returnsAnAnonymousFunction;
 }
