@@ -16,7 +16,7 @@ function returnsAnAnonymousFunction()
 {
     return function()
     {
-        
-    }
+
+    };
 }
 
