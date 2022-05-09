@@ -1,20 +1,22 @@
-function spy()
+
+function receivesAFunction(something)
 {
-
+    return something();
 }
-
-function receivesAFunction(callback)
-{
-    console.log(callback(spy));
-}
-
 
 function returnsANamedFunction()
 {
-    return returnsANamedFunction;
+    return function something()
+    {
+
+    };
 }
 
 function returnsAnAnonymousFunction()
 {
-    return returnsAnAnonymousFunction;
+    return function()
+    {
+        
+    }
 }
+
